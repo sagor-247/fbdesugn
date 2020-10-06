@@ -1,0 +1,15 @@
+@media screen and (max-width:980px) {
+    .logo-area{
+    width: 100%;
+    float: none;
+}
+.login-area {
+    width: 100%;
+    float: none;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.login-area form {
+    
+}
+}

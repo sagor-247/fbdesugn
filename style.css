@@ -5,15 +5,15 @@ body {
 }
 .header {
     background: #3b5998;
-    padding-bottom: 65px;
+    padding-bottom: 75px;
     display: block;
 }
 .container {
-    width:70%;
+    width:60%;
     margin: auto;
 }
 .logo-area {
-    width: 80%;
+    width: 105%;
     height: auto;
     float: left;
 }
@@ -26,10 +26,10 @@ body {
     color: white;
     float: right;
 }
-login-area form {
+.login-area form {
     float: right;
 }
-login-area,
+.login-area,
 .login-area input {
     display: block;
 }
@@ -40,22 +40,22 @@ login-area,
     margin-left: 8px;
 }
 .login-area label {
-    font-size: 15px;
-    margin-bottom:1px;
+    font-size: 14px;
+    margin-bottom:1.5px;
 }
 .login-area .login {
     margin-right: 0.5px;
 }
 .login-area input,[type="text"]
 .login-area input[type="password"] {
-    border: 0.1px solid;
+    border: 1px solid;
     font-size:12 px;
     font-weight: 300;
-    padding: 1px 4px;
+    padding: 0.5px 2px;
 }
 .login-area .Password a {
     text-decoration: none;
-     color:#1877f2;
+     color:#fff;
     font-size: 12px;
 }
 .login-area .Password a:hover {
@@ -63,20 +63,197 @@ login-area,
 }
 .login-area input[type="submit"] {
     background-color: #4267b2;
-        border:0.1px solid black;
-
+    border:0.1px solid black;
     padding:1px 3px;
     font-weight: 400;
     color: whitesmoke;
-    margin-top: 22px;
+    margin-top: 24px;
 }
-//***////
-.right-area {
+.singup-area {
+    padding: 65px;
+    background:linear-gradient(#ffffff, #D4D9E9);
+    contai
+}
+.singup-area {
+    content: '';
+    clear: both;
+    padding: 10px;
+    display: inline-block;
+}
+.left-area p {
+    font: 40px;
+    color: #286087;
+    font-weight: 900;
     width: 50%;
-    float: left;
+}
+.left-area img {
+    width: 90%;
+
 }
 .left-area {
     width: 65%;
     float: left;
+    }
+.right-area h2 {
+    font-size: 27px;
+    color: #333;
+    margin: 0px;
 }
-.
+.right-area h4 {
+    font-size: 18px;
+    color: #1d2129;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+
+.right-area {
+    width: 35%;
+   float: left;
+}
+.right-area input[type="text"],
+.right-area input[type="password"] {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px 10px;
+    font-size: 15px;
+    margin: 5px 0;
+    border-radius: 5px solid #bdc7d8;
+    display: block;
+}
+.fullname {
+        overflow:hidden;
+}
+.first-name {
+    width: 48%;
+    margin-right: 4%;
+    float: left;
+
+}
+.surname {
+    width: 48%;
+    float: left;
+    }
+
+.birthday {
+    overflow: hidden;
+}
+.birthday h4 {
+    margin: 5px 0px;
+}
+.birth-date {
+   overflow: hidden;
+    border: 5px;
+    float: left;
+    margin-right: 10px;
+    width: 390px;
+}
+.birth-date select {
+     border: 1px solid #cccc;
+      padding: 3px;
+      float: left;
+}
+.birth-link {
+    float: left;
+    width: 190px;
+}
+.birth-link a {
+    font-size: 13px;
+    display: block;
+    line-height: 1.1;
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+.birth-link a:hover {
+    text-decoration: underline;
+}
+.gender {
+    margin: 10px 0;
+}
+.gender label {
+    font-size: 20px;
+    font-weight: 400;
+    color: #1d2129;
+}
+.text-box {
+    margin-bottom: 15px;
+}
+.text-box p {
+    font-size: 13px;
+    color: #777;
+    width: 300px;
+}
+.text-box a {
+    text-decoration: none;
+}
+.text-box a:hover {
+    text-decoration: underline;
+}
+.btn {
+    margin-bottom: 20px;
+}
+.btn input {
+    background: linear-gradient(#67ae55,#578843);
+    box-shadow: inset 0 1px 1px #a4e388;
+    border-color: #3b6e22 #3b6e22 #2c5115;
+    border-width: 1px;
+    border-style: solid;
+    padding: 7px 14px;
+    min-width: 194px;
+    text-align: center;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 20px;
+    transition: 0.5s;
+}
+.btn input:hover{
+    background:linear-gradient(#578843 ,#67ae55);
+    cursor: pointer;
+}
+.page {
+    width: 600;
+    color: #666;
+    padding-bottom: 10px;
+}
+.page a {
+ text-decoration: none;
+    color: #365899;
+}
+
+.page:hover a {
+    text-decoration: underline;
+}
+
+.footer-area {
+    padding: 35px 0;
+    text-underline-position:auto;
+}
+.footer-area ul {
+    margin: 0;
+    padding: 0;
+}
+.footer-area li {
+    display: inline;
+    padding: 5px;
+    text-decoration: none;;
+}
+.footer-area ul li a {
+    padding: 20px 0;
+    text-decoration: none;
+    color: #365899;
+}
+.footer-area .top ul li: list-child a {
+    border: 1px solid #999;
+    padding: 2px 6px;
+
+}
+.footer-area li:hover a {
+    text-decoration: underline;
+}
+.footer-area ul,
+.footer-area li {
+    padding: 10px 5px;
+    font-size: 13px;
+}
